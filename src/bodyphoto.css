@@ -1,0 +1,123 @@
+
+#one{
+    height: 200vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.box{
+    height: 50vh;
+    width: 30%;
+    cursor: pointer;
+   
+}
+.k{
+    background-image: url(b-pic1.png);
+    background-size: cover;
+    height:40vh;
+    width:85%;
+    border-radius: 10%;
+}
+.l{
+    background-image: url(b-pic2.jpg);
+    background-size: cover;
+    height: 40vh;
+    width:90%;
+    border-radius: 10%;
+}
+.m{
+    background-image: url(bodypic2.jpg);
+    background-size: cover;
+    height:40vh;
+    width:90%;
+    border-radius: 10%;
+}
+.n{
+    background-image: url(bodypic3.jpg);
+    background-size: cover;
+    height:40vh;
+    width:90%;
+    border-radius: 10%;
+}
+.o{
+    background-image: url(bodypic4.jpg);
+    background-size: cover;
+    height:40vh;
+    width:90%;
+    border-radius: 10%;
+}
+.p{
+    background-image: url(bodypic5.jpg);
+    background-size: cover;
+    height:40vh;
+    width:90%;
+    border-radius: 10%;
+}
+.q{
+    background-image: url(bodypic6.jpg);
+    background-size: cover;
+    height:40vh;
+    width:90%;
+    border-radius: 10%;
+}
+.r{
+    background-image: url(f-pic-1.webp);
+    background-size: cover;
+    height:40vh;
+    width:85%;
+    border-radius: 10%;
+}
+.s{
+    background-image: url(n-pic3.webp);
+    background-size: cover;
+    height:43vh;
+    width:90%;
+    border-radius: 10%;
+}
+.kone{
+    height: auto;
+    width: 100%;
+    display: flex;
+    cursor: pointer;
+   
+}
+.kicon{
+    margin-left: 200px;
+}
+#licon{
+    font-size: 1.2rem;
+}
+#view{
+    font-size: 1.2rem;
+    margin-left: 20px;
+}
+.level{
+    font-size: 1.2rem;
+    margin-left: 2px;
+}
+@media screen and (max-width:600px){
+    #one{
+        height: 630vh;
+    }
+    .box{
+        height: 50vh;
+        width: 99%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .kone{
+        margin-left: 20px;
+    }
+    .btn-foot{
+        height: 24vh;
+    }
+    .btn {
+        margin-top: 20px;
+        height: 8vh;
+        width: 32vh;
+        font-weight: 600;
+    }
+}
